@@ -48,10 +48,12 @@ namespace WinFormsApp1
                 string fileName = files[i].Substring(files[i].LastIndexOf("\\") + 1);
                 using (StreamReader sr = new StreamReader(files[i]))
                 {
-                    richTextBox1.Text += "~" + (i + 1) + ") " + fileName + ";~\n\n" + sr.ReadToEnd() + "\n\n";
+                    var fileContainer = sr.ReadToEnd();
+                    richTextBox1.Text += "~" + (i + 1) + ") " + fileName + ";~\n\n" + fileContainer + "\n\n";
+                    richTextBox4.Text += fileContainer.Count(x => x == '\n') + "\n";
                 };
                 richTextBox2.Text += fileName + "\n";
-                richTextBox3.Text += Math.Ceiling((double)new FileInfo(files[i]).Length/1024) + " КБ \n";
+                richTextBox3.Text += Math.Ceiling((double)new FileInfo(files[i]).Length / 1024) + " КБ \n";
                 counter++;
             }
             counter = 0;

@@ -35,9 +35,10 @@ namespace WinFormsApp1
             this.button2 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +62,7 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(219, 25);
+            this.button1.Location = new System.Drawing.Point(389, 25);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 23);
             this.button1.TabIndex = 2;
@@ -71,7 +72,7 @@ namespace WinFormsApp1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(442, 16);
+            this.button2.Location = new System.Drawing.Point(612, 16);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(151, 41);
             this.button2.TabIndex = 3;
@@ -95,6 +96,7 @@ namespace WinFormsApp1
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.richTextBox4);
             this.panel1.Controls.Add(this.richTextBox3);
             this.panel1.Controls.Add(this.richTextBox2);
             this.panel1.Controls.Add(this.button2);
@@ -104,8 +106,19 @@ namespace WinFormsApp1
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(25, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(809, 558);
+            this.panel1.Size = new System.Drawing.Size(777, 558);
             this.panel1.TabIndex = 7;
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.richTextBox3.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox3.Location = new System.Drawing.Point(599, 63);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(79, 477);
+            this.richTextBox3.TabIndex = 7;
+            this.richTextBox3.Text = "";
             // 
             // richTextBox2
             // 
@@ -122,28 +135,28 @@ namespace WinFormsApp1
             // 
             this.progressBar1.Location = new System.Drawing.Point(2, 280);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(659, 27);
+            this.progressBar1.Size = new System.Drawing.Size(797, 27);
             this.progressBar1.TabIndex = 6;
             this.progressBar1.Value = 50;
             this.progressBar1.Visible = false;
             // 
-            // richTextBox3
+            // richTextBox4
             // 
-            this.richTextBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.richTextBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.richTextBox3.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox3.Location = new System.Drawing.Point(599, 63);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(189, 477);
-            this.richTextBox3.TabIndex = 7;
-            this.richTextBox3.Text = "";
+            this.richTextBox4.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox4.Location = new System.Drawing.Point(684, 63);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(79, 477);
+            this.richTextBox4.TabIndex = 8;
+            this.richTextBox4.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(868, 582);
+            this.ClientSize = new System.Drawing.Size(814, 582);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -165,6 +178,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox4;
     }
 }
 
