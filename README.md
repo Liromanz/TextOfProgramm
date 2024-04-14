@@ -18,8 +18,7 @@ ____
 ## **Usage**
 
 <div align=center>
-<img src="tsukaikata.gif
-" alt="使い方"/>
+<img src="tsukaikata.gif" alt="使い方"/>
 </div>
 
 
