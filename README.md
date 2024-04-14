@@ -4,10 +4,8 @@ ____
 
 <div align=center>
 <img src="https://img.shields.io/github/repo-size/Liromanz/TextOfProgramm" alt="repoSize"/>
-<img src="https://img.shields.io/github/downloads/Liromanz/TextOfProgramm/total
-" alt="downloads"/>
-<img src="https://img.shields.io/github/last-commit/Liromanz/TextOfProgramm
-" alt="lastCommit"/>
+<img src="https://img.shields.io/github/downloads/Liromanz/TextOfProgramm/total" alt="downloads"/>
+<img src="https://img.shields.io/github/last-commit/Liromanz/TextOfProgramm" alt="lastCommit"/>
 </div>
 
 
