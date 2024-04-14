@@ -18,7 +18,7 @@ ____
 ## **Usage**
 
 <div align=center>
-<img src="%E4%BD%BF%E3%81%84%E6%96%B9.gif
+<img src="/tsukaikata.gif
 " alt="使い方"/>
 </div>
 
