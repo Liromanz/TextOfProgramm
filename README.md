@@ -1,1 +1,1 @@
-![Eclipse Marketplace Last Update](https://img.shields.io/eclipse-marketplace/last-update/WinFormsApp1)
+[GitHub repo size](https://img.shields.io/github/repo-size/Liromanz/TextOfProgramm)
