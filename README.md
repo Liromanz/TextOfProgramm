@@ -14,12 +14,12 @@ ____
 
 ## **Installation**
 
-скачать .exe файлы можно из <a href="https://github.com/Liromanz/TextOfProgramm/releases">**Releases**</a>. поддерживается .net 5, .net 6, .net 7, .net 8 и .net 9
+скачать .exe файлы можно из <a href="https://github.com/Liromanz/TextOfProgramm/releases">**Releases**</a>. поддерживается .net 6, .net 7, .net 8. через код можно на все поменять, мне было впадлу релизы делать
 
 ## **Usage**
 
 <div align=center>
-<img src="tsukaikata.gif" alt="使い方"/>
+<img src="https://github.com/Liromanz/TextOfProgramm/blob/6ac3cd8b8687a9cefcb9fb7e021accc12a652c14/tsukaikata.gif" alt="使い方"/>
 </div>
 
 
